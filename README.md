@@ -1,6 +1,6 @@
 
 
-### Tree Structure
+### Responsible AI Survey Structure
 
 ```
 Responsible AI Survey
@@ -14,6 +14,11 @@ Responsible AI Survey
 │   ├── Overview
 │   ├── Case Studies
 │   ├── Defense Strategies
+├── Aligning LLMs with Human Feedback
+│   ├── Reinforcement Learning with Human Feedback (RLHF)
+│   ├── Direct Preference Optimization (DPO)
+│   ├── Supervised Fine-Tuning
+│   ├── Simulated Preference Optimization (SimPO)
 ├── Training Time Attacks
 │   ├── Poisoning Attacks
 │   ├── Backdoor Attacks
@@ -35,14 +40,12 @@ Responsible AI Survey
 
 ---
 
-### README Markdown with Table of Contents and Paper Placeholders
+###Table of Contents
 
 ```markdown
 # Responsible AI Survey
 
 ## Table of Contents
-# Responsible AI Survey
-
 1. [Introduction](#introduction)
    - [Key References](#introduction-key-references)
        - [Paper Name 1](#) - [Link to Paper](#)
@@ -65,20 +68,28 @@ Responsible AI Survey
    - [Key References](#model-stealing-key-references)
        - [Paper Name 1](#) - [Link to Paper](#)
        - [Paper Name 2](#) - [Link to Paper](#)
-5. [Training Time Attacks](#training-time-attacks)
+5. [Aligning LLMs with Human Feedback](#aligning-llms-with-human-feedback)
+   - [Reinforcement Learning with Human Feedback (RLHF)](#rlhf)
+   - [Direct Preference Optimization (DPO)](#dpo)
+   - [Supervised Fine-Tuning](#supervised-fine-tuning)
+   - [Simulated Preference Optimization (SimPO)](#simpo)
+   - [Key References](#aligning-llms-with-human-feedback-key-references)
+       - [Paper Name 1](#) - [Link to Paper](#)
+       - [Paper Name 2](#) - [Link to Paper](#)
+6. [Training Time Attacks](#training-time-attacks)
    - [Poisoning Attacks](#poisoning-attacks)
    - [Backdoor Attacks](#backdoor-attacks)
    - [Mitigation Techniques](#mitigation-techniques)
    - [Key References](#training-time-attacks-key-references)
        - [Paper Name 1](#) - [Link to Paper](#)
        - [Paper Name 2](#) - [Link to Paper](#)
-6. [Test Time Attacks](#test-time-attacks)
+7. [Test Time Attacks](#test-time-attacks)
    - [Jailbreaking LLMs](#jailbreaking-llms)
    - [Jailbreaking VLMs](#jailbreaking-vlms)
    - [Key References](#test-time-attacks-key-references)
        - [Paper Name 1](#) - [Link to Paper](#)
        - [Paper Name 2](#) - [Link to Paper](#)
-7. [Misuse of LLMs](#misuse-of-llms)
+8. [Misuse of LLMs](#misuse-of-llms)
    - [Misinformation & Factuality Issues](#misinformation-and-factuality-issues)
        - [Case Studies](#case-studies-1)
        - [Impact Assessment](#impact-assessment)
@@ -87,7 +98,7 @@ Responsible AI Survey
    - [Key References](#misuse-of-llms-key-references)
        - [Paper Name 1](#) - [Link to Paper](#)
        - [Paper Name 2](#) - [Link to Paper](#)
-8. [Social Bias](#social-bias)
+9. [Social Bias](#social-bias)
    - [Sources of Bias](#sources-of-bias)
    - [Bias Detection](#bias-detection)
    - [Mitigating Bias](#mitigating-bias)
@@ -97,149 +108,21 @@ Responsible AI Survey
 
 ---
 
-## Introduction
-Provide a high-level overview of responsible AI, why it matters, and what this survey explores.
+## Aligning LLMs with Human Feedback
+### Reinforcement Learning with Human Feedback (RLHF)
+Overview and key methodologies of RLHF.
+
+### Direct Preference Optimization (DPO)
+Discussion of DPO and its advancements.
+
+### Supervised Fine-Tuning
+Exploration of fine-tuning models using human-labeled data.
+
+### Simulated Preference Optimization (SimPO)
+Explanation of SimPO and its applications.
 
 ### Key References
 - [Paper Name 1](#) - [Link to Paper](#)
 - [Paper Name 2](#) - [Link to Paper](#)
-
-## Background
-Explain the context and importance of responsible AI, including historical developments and current challenges.
-
-### Key References
-- [Paper Name 1](#) - [Link to Paper](#)
-- [Paper Name 2](#) - [Link to Paper](#)
-
-## Membership Inference Attack
-### Overview
-Brief description of membership inference attacks.
-### Techniques
-Detailed explanation of methodologies used.
-### Countermeasures
-Approaches to defend against these attacks.
-
-### Key References
-- [Paper Name 1](#) - [Link to Paper](#)
-- [Paper Name 2](#) - [Link to Paper](#)
-
-## Model Stealing
-### Overview
-What is model stealing and why it’s a concern?
-### Case Studies
-Examples where model stealing occurred.
-### Defense Strategies
-Ways to mitigate model stealing.
-
-### Key References
-- [Paper Name 1](#) - [Link to Paper](#)
-- [Paper Name 2](#) - [Link to Paper](#)
-
-## Training Time Attacks
-### Poisoning Attacks
-Description and examples of poisoning attacks.
-### Backdoor Attacks
-Explanation of backdoor attacks.
-### Mitigation Techniques
-How to prevent or reduce risks during training.
-
-### Key References
-- [Paper Name 1](#) - [Link to Paper](#)
-- [Paper Name 2](#) - [Link to Paper](#)
-
-## Test Time Attacks
-### Jailbreaking LLMs
-Methods for bypassing safety mechanisms in LLMs.
-### Jailbreaking VLMs
-Similar attacks targeted at vision-language models.
-
-### Key References
-- [Paper Name 1](#) - [Link to Paper](#)
-- [Paper Name 2](#) - [Link to Paper](#)
-
-## Misuse of LLMs
-### Misinformation
-
-
----
-
-## Introduction
-Provide a high-level overview of responsible AI, why it matters, and what this survey explores.
-
-### Key References
-- Placeholder for references (e.g., Paper 1, Paper 2, etc.)
-
-## Background
-Explain the context and importance of responsible AI, including historical developments and current challenges.
-
-### Key References
-- Placeholder for references (e.g., Paper 3, Paper 4, etc.)
-
-## Membership Inference Attack
-### Overview
-Brief description of membership inference attacks.
-### Techniques
-Detailed explanation of methodologies used.
-### Countermeasures
-Approaches to defend against these attacks.
-
-### Key References
-- Placeholder for references (e.g., Paper 5, Paper 6, etc.)
-
-## Model Stealing
-### Overview
-What is model stealing and why it’s a concern?
-### Case Studies
-Examples where model stealing occurred.
-### Defense Strategies
-Ways to mitigate model stealing.
-
-### Key References
-- Placeholder for references (e.g., Paper 7, Paper 8, etc.)
-
-## Training Time Attacks
-### Poisoning Attacks
-Description and examples of poisoning attacks.
-### Backdoor Attacks
-Explanation of backdoor attacks.
-### Mitigation Techniques
-How to prevent or reduce risks during training.
-
-### Key References
-- Placeholder for references (e.g., Paper 9, Paper 10, etc.)
-
-## Test Time Attacks
-### Jailbreaking LLMs
-Methods for bypassing safety mechanisms in LLMs.
-### Jailbreaking VLMs
-Similar attacks targeted at vision-language models.
-
-### Key References
-- Placeholder for references (e.g., Paper 11, Paper 12, etc.)
-
-## Misuse of LLMs
-### Misinformation & Factuality Issues
-#### Case Studies
-Examples of misinformation generated by AI.
-#### Impact Assessment
-The broader effects of misinformation on society.
-### Deepfake Generation
-Overview of deepfake generation using AI.
-### Malware Creation
-Potential for AI to facilitate malware creation.
-
-### Key References
-- Placeholder for references (e.g., Paper 13, Paper 14, etc.)
-
-## Social Bias
-### Sources of Bias
-Where does bias in AI come from?
-### Bias Detection
-Techniques for identifying bias in AI systems.
-### Mitigating Bias
-Methods to reduce and eliminate bias.
-
-### Key References
-- Placeholder for references (e.g., Paper 15, Paper 16, etc.)
 ```
 
