@@ -25,17 +25,29 @@ Responsible AI Survey
 │   ├── Mitigation Techniques
 ├── Test Time Attacks
 │   ├── Jailbreaking LLMs
+│   │   ├── Research Questions
+│   │   ├── Attack Methods
+│   │   ├── Defenses
+│   │   ├── Evaluations
 │   ├── Jailbreaking VLMs
-├── Misuse of LLMs
+│   │   ├── Research Questions
+│   │   ├── Attack Methods
+│   │   ├── Defenses
+│   │   ├── Evaluations
+├── Catastrophic Risks in AI Applications
 │   ├── Misinformation & Factuality Issues
 │   │   ├── Case Studies
 │   │   ├── Impact Assessment
 │   ├── Deepfake Generation
 │   ├── Malware Creation
+│   ├── Overview of Risks
+│   ├── Potential Scenarios
+│   ├── Mitigation and Policy Recommendations
 ├── Social Bias
 │   ├── Sources of Bias
 │   ├── Bias Detection
 │   ├── Mitigating Bias
+
 ```
 
 ---
@@ -89,7 +101,7 @@ Responsible AI Survey
    - [Key References](#test-time-attacks-key-references)
        - [Paper Name 1](#) - [Link to Paper](#)
        - [Paper Name 2](#) - [Link to Paper](#)
-8. [Misuse of LLMs](#misuse-of-llms)
+8. [Catastrophic Application of LLMs and Misuse of LLMs](#misuse-of-llms)
    - [Misinformation & Factuality Issues](#misinformation-and-factuality-issues)
        - [Case Studies](#case-studies-1)
        - [Impact Assessment](#impact-assessment)
